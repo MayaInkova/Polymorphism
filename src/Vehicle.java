@@ -1,2 +1,5 @@
-package PACKAGE_NAME;public class Vehicle {
+abstract class Vehicle {
+    public abstract void startEngine();
+    public abstract void stopEngine();
 }
+
